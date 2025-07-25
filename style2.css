@@ -1,0 +1,449 @@
+*{
+  list-style: none;
+}
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.nav-bar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1.2rem 3rem;
+
+}
+.nav-bar a {
+    list-style: none;
+    text-decoration: none;
+}
+.menu-item, .cart-icon{
+    list-style: none;
+    display: flex;
+
+}
+.home a{
+  font-weight: 700;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color: #252432   ;
+}
+.shop a{
+  font-weight: 300;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color:   #8987A1 ;
+}
+.about-us a{
+  font-weight: 300;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color:   #8987A1 ;
+}
+.cart-icon1
+{
+  font-size: 20px;
+  color: #252432   
+}
+
+.cart-icon1 li a{
+  list-style: none;
+  margin-right: .5rem;
+  font-size: 20px;
+  color: #252432;
+  
+}
+.cart-icon a{
+  font-weight: 500;
+  margin-right: .5rem;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  color: #252432   ;
+
+
+}
+
+@media only screen and (max-width: 576px) {
+ .menu-item{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+ .cart-icon{
+    display: none;
+  }
+}
+
+/* nav bar dane*/
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 150px auto;
+  align-items: center;
+  max-width: 1140px;
+}
+.text-part h1{
+  font-size: 65px;
+  font-weight: bold;
+  font-family: "Noto Serif";
+  line-height: 55px;
+}
+.header-top span{
+  color: #E95A08;
+}
+.header-down {
+  color: #E95A08;
+}
+.text-part p{
+  color: #0000007c;
+  font-family: inter;
+}
+
+@media only screen and (max-width: 576px) {
+ .banner-container{
+   display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: center; 
+  margin: 0 auto; 
+}
+.img-part{
+  width: 100%;
+  margin-top: -400px;
+}
+.text-part{
+  width: 100%;
+  margin-top: 700px;
+  line-height: 30px;
+  margin-left: -500;
+}
+}
+
+/*completed hero banner saction*/
+
+
+.ourplants{
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto;
+}
+.ourplants h1{
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+
+}
+
+.ourplants h1 span{
+  font-family: "Noto Serif";
+  font-weight: 700;
+  font-size: 50px;
+  color:#E95A08 ;
+  
+}
+
+
+.ourplants p {
+  font-family: inter;
+  font-weight: normal;
+  font-size: 20px;
+  color:#0000007c;
+  
+}
+
+
+
+/*start card */
+.tree-card{
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  gap: 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.tob{
+  text-align: center;
+}
+
+.tob h2{
+  font-family: inter;
+  color: #111111;
+  font-size: 22px;
+  font-weight: 400;
+}
+.tob h1{
+  font-family: inter;
+  color: #111111;
+  font-size: 22px;
+  font-weight: 700;
+}
+.tob button{
+  border: none;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #E95A08;
+  color: aliceblue;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 576px){
+  .tree-card{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+}
+
+/* ended card saction */
+
+.bach{
+  position: absolute;
+
+}
+
+
+.bach img{
+  width: 200px;
+
+  height: 200px;
+  position: relative;
+  top: 45px;
+  left: 300%;
+}
+
+.bach img:hover{
+  transform: rotate(360deg);
+  transition: 2s;
+}
+
+
+@media only screen and (max-width: 576px){
+
+  .bach{
+ display: none;
+ 
+ 
+  
+}
+}
+.flower-lover{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 40px;
+  align-items: center;
+ 
+}
+.flower-lover img{
+ 
+}
+.flower-lover h1{
+  font-family: "nato-sarif";
+  font-size: 45px;
+  font-weight: 700;
+
+}
+.flower-lover-t{
+  overflow: hidden;
+}
+.flower-lover ul
+{
+  font-size: 22px;
+  list-style: decimal-leading-zero;
+  font-family: inter;
+  font-weight: 300;
+  
+
+}
+.flower-lover ul li{
+  list-style: circle inside;
+}
+
+@media only screen and (max-width: 576px){
+  .flower-lover{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  } 
+
+    
+}
+
+/*ended my store*/
+.latest-deals{
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+    padding-top: 20px;
+
+}
+.latest-deals h1{
+  font-family: "nato-sarif";
+  font-size: 45px;
+  font-weight: 700;
+}
+.latest-deals h1 span{
+  color: #E95A08;
+}
+.latest-deals p{
+  color: #252432b7;
+
+}
+
+/*.ofer-section{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 800px;
+}
+.atach2{
+  width: 30%;
+  background-image: url(img/deal-ana.png );
+   background-repeat: no-repeat;
+}
+.atach1{
+  width: 60%;
+  background-image: url(img/deal-zabo.png);
+  background-repeat: no-repeat;
+}
+*/
+
+
+
+
+.offer-container{
+  display: flex;
+  gap: 20px;
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+
+
+
+
+.subscribe-section {
+      background: url(img/news-letter-bg.png) no-repeat center center/cover;
+      height: 45vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .subscribe-section h1 {
+      color: white;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-family: "nato sarif";
+    }
+
+    .subscribe-form {
+      display: flex;
+      max-width: 600px;
+      width: 90%;
+    }
+
+    .subscribe-form input[type="email"] {
+      flex: 1;
+      padding: 15px;
+      font-size: 1rem;
+      border: none;
+      outline: none;
+    }
+
+    .subscribe-form button {
+      padding: 15px 30px;
+      background-color:#E95A08;
+      border: none;
+      color: white;
+      font-size: 1rem;
+      
+    }
+
+    .subscribe-form button:hover {
+      background-color: darkorange;
+    }
+
+    @media(max-width: 576px){
+      .subscribe-section h1 {
+        font-size: 1.8rem;
+      }
+
+      
+
+      .subscribe-form button {
+        width: 100%;
+      }
+    }
+
+    /* ended footer banner */
+
+    /*start footer*/
+   .container-f{
+      max-width: 1140px;
+      display: grid;
+      grid-template-columns: repeat(4,4fr);
+      margin: 0 auto;
+      text-align: center;
+      justify-content: center;
+            font-family: "nato-sarif";
+      
+       
+    }
+
+    .item{
+      padding-top: 40px;
+    }
+    .foot-menu li a{
+      list-style: none;
+      text-decoration: none;
+      margin-bottom: 5px;
+      font-family: "nato-sarif";
+      font-size: 20px;
+      
+    }
+
+     @media(max-width: 576px){
+        .container-f{
+              max-width: 1140px;
+              display: grid;
+              grid-template-columns: repeat(1,1fr);
+              margin: 0 auto;
+              text-align: center;
+              justify-content: center;
+       
+    }
+
+    .item{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+
+     }
